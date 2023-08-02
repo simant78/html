@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.navbar{
+    width: full;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    justify-items:center;
+    padding: 0px 45px;
+    box-shadow: 0 5px 10px rgb(red, green, blue)
+    
+}
+.site-logo{
+    height: 50px;
+}
+.navbar ul{
+    overflow: none;
+}
+.navbar li{
+    float: left;
+    list-style: none;
+}
+.navbar ul li a{
+    padding: 3px 5px;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    text-transform: capitalize;
+    font-size: 15px;
+}
+.navbar ul li:hover a{
+    color: red;
+}
+
+
+.btn{
+    background-color: red;
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+    border: none;
+    padding: 8px 15px;
+
+}
+.hero-section{
+    height: 100vh;
+    background-image:url('./homebanner.jpg');
+    background-size: cover;
+    background-repeat:no-repeat ;
+    display: flex;
+    background-position: center;
+}
+.button{
+    background-color:white;
+    color:red;
+    font-size: 8px;
+    border: none;
+    padding: 8px 15px;
+    position: absolute;
+
+}
+.image{
+    height:400px;
+    margin-left: auto;
+    display: flex;
+    padding: 18px 20px;
+    position: absolute;
+}
+.text1{
+    padding: 6px;
+    margin-top: 20px;
+    text-align: left;
+    font-size: 5px;
+    background-color: rgb(255, 255, 255);
+    margin-left: 30px;
+    color: red;
+    }
+
+.content{
+    font-family: sans-serif;
+    margin-top: 10 px;
+    display: flex;
+    margin-right: 20px;
+    color: aquamarine;
+    
+}
+.text2{
+    padding: 6px;
+    text-align: left;
+    font-size: 20px;
+    color: aqua;
+    margin: 20px;
+
+
+
+}
