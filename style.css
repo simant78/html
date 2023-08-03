@@ -48,14 +48,14 @@
 }
 .hero-section{
     height: 100vh;
-    background-image:url('./homebanner.jpg');
+    background-image:url('/New\ folder/asset 3.png');
     background-size: cover;
     background-repeat:no-repeat ;
     display: flex;
     background-position: center;
 }
 .button{
-    background-color:white;
+    background-color:white; 
     color:red;
     font-size: 8px;
     border: none;
@@ -94,7 +94,4 @@
     font-size: 20px;
     color: aqua;
     margin: 20px;
-
-
-
 }

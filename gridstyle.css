@@ -1,0 +1,30 @@
+.container{
+width: 100%;
+display: grid;
+grid-template-columns: repeat(4,1fr);
+}
+.div1{
+    grid-column: span 1;
+    background-color: aquamarine; 
+    height: 100px;
+}
+.div2{
+    grid-column: span 3;
+    background-color: rgb(170, 127, 255); 
+    height: 100px;
+}
+.div3{
+    grid-column: span 4;
+    background-color:red; 
+    height: 100px;
+}
+.div4{
+    grid-column: span 2;
+    background-color: yellow; 
+    height: 100px;
+}
+.div5{
+    grid-column: span 2;
+    background-color:green; 
+    height: 100px;
+}
